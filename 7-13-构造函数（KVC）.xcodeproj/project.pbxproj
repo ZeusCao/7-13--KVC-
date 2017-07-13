@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FE6BEA1F17507600C2E940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6BE91F17507600C2E940 /* AppDelegate.swift */; };
+		C0FE6BEC1F17507600C2E940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6BEB1F17507600C2E940 /* ViewController.swift */; };
+		C0FE6BEF1F17507600C2E940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FE6BED1F17507600C2E940 /* Main.storyboard */; };
+		C0FE6BF11F17507600C2E940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FE6BF01F17507600C2E940 /* Assets.xcassets */; };
+		C0FE6BF41F17507600C2E940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FE6BF21F17507600C2E940 /* LaunchScreen.storyboard */; };
+		C0FE6BFF1F17507600C2E940 /* __13______KVC_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6BFE1F17507600C2E940 /* __13______KVC_Tests.swift */; };
+		C0FE6C0A1F17507600C2E940 /* __13______KVC_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6C091F17507600C2E940 /* __13______KVC_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0FE6BFB1F17507600C2E940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FE6BDE1F17507600C2E940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FE6BE51F17507600C2E940;
+			remoteInfo = "7-13-构造函数（KVC）";
+		};
+		C0FE6C061F17507600C2E940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FE6BDE1F17507600C2E940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FE6BE51F17507600C2E940;
+			remoteInfo = "7-13-构造函数（KVC）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0FE6BE61F17507600C2E940 /* 7-13-构造函数（KVC）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7-13-构造函数（KVC）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FE6BE91F17507600C2E940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0FE6BEB1F17507600C2E940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0FE6BEE1F17507600C2E940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FE6BF01F17507600C2E940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FE6BF31F17507600C2E940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FE6BF51F17507600C2E940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FE6BFA1F17507600C2E940 /* 7-13-构造函数（KVC）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-13-构造函数（KVC）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FE6BFE1F17507600C2E940 /* __13______KVC_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__13______KVC_Tests.swift"; sourceTree = "<group>"; };
+		C0FE6C001F17507600C2E940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FE6C051F17507600C2E940 /* 7-13-构造函数（KVC）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-13-构造函数（KVC）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FE6C091F17507600C2E940 /* __13______KVC_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__13______KVC_UITests.swift"; sourceTree = "<group>"; };
+		C0FE6C0B1F17507600C2E940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FE6BE31F17507600C2E940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6BF71F17507600C2E940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6C021F17507600C2E940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FE6BDD1F17507600C2E940 = {
+			isa = PBXGroup;
+			children = (
+				C0FE6BE81F17507600C2E940 /* 7-13-构造函数（KVC） */,
+				C0FE6BFD1F17507600C2E940 /* 7-13-构造函数（KVC）Tests */,
+				C0FE6C081F17507600C2E940 /* 7-13-构造函数（KVC）UITests */,
+				C0FE6BE71F17507600C2E940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FE6BE71F17507600C2E940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE6BE61F17507600C2E940 /* 7-13-构造函数（KVC）.app */,
+				C0FE6BFA1F17507600C2E940 /* 7-13-构造函数（KVC）Tests.xctest */,
+				C0FE6C051F17507600C2E940 /* 7-13-构造函数（KVC）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FE6BE81F17507600C2E940 /* 7-13-构造函数（KVC） */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE6BE91F17507600C2E940 /* AppDelegate.swift */,
+				C0FE6BEB1F17507600C2E940 /* ViewController.swift */,
+				C0FE6BED1F17507600C2E940 /* Main.storyboard */,
+				C0FE6BF01F17507600C2E940 /* Assets.xcassets */,
+				C0FE6BF21F17507600C2E940 /* LaunchScreen.storyboard */,
+				C0FE6BF51F17507600C2E940 /* Info.plist */,
+			);
+			path = "7-13-构造函数（KVC）";
+			sourceTree = "<group>";
+		};
+		C0FE6BFD1F17507600C2E940 /* 7-13-构造函数（KVC）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE6BFE1F17507600C2E940 /* __13______KVC_Tests.swift */,
+				C0FE6C001F17507600C2E940 /* Info.plist */,
+			);
+			path = "7-13-构造函数（KVC）Tests";
+			sourceTree = "<group>";
+		};
+		C0FE6C081F17507600C2E940 /* 7-13-构造函数（KVC）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE6C091F17507600C2E940 /* __13______KVC_UITests.swift */,
+				C0FE6C0B1F17507600C2E940 /* Info.plist */,
+			);
+			path = "7-13-构造函数（KVC）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FE6BE51F17507600C2E940 /* 7-13-构造函数（KVC） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FE6C0E1F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）" */;
+			buildPhases = (
+				C0FE6BE21F17507600C2E940 /* Sources */,
+				C0FE6BE31F17507600C2E940 /* Frameworks */,
+				C0FE6BE41F17507600C2E940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7-13-构造函数（KVC）";
+			productName = "7-13-构造函数（KVC）";
+			productReference = C0FE6BE61F17507600C2E940 /* 7-13-构造函数（KVC）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0FE6BF91F17507600C2E940 /* 7-13-构造函数（KVC）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FE6C111F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）Tests" */;
+			buildPhases = (
+				C0FE6BF61F17507600C2E940 /* Sources */,
+				C0FE6BF71F17507600C2E940 /* Frameworks */,
+				C0FE6BF81F17507600C2E940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FE6BFC1F17507600C2E940 /* PBXTargetDependency */,
+			);
+			name = "7-13-构造函数（KVC）Tests";
+			productName = "7-13-构造函数（KVC）Tests";
+			productReference = C0FE6BFA1F17507600C2E940 /* 7-13-构造函数（KVC）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0FE6C041F17507600C2E940 /* 7-13-构造函数（KVC）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FE6C141F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）UITests" */;
+			buildPhases = (
+				C0FE6C011F17507600C2E940 /* Sources */,
+				C0FE6C021F17507600C2E940 /* Frameworks */,
+				C0FE6C031F17507600C2E940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FE6C071F17507600C2E940 /* PBXTargetDependency */,
+			);
+			name = "7-13-构造函数（KVC）UITests";
+			productName = "7-13-构造函数（KVC）UITests";
+			productReference = C0FE6C051F17507600C2E940 /* 7-13-构造函数（KVC）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FE6BDE1F17507600C2E940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zeus;
+				TargetAttributes = {
+					C0FE6BE51F17507600C2E940 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C0FE6BF91F17507600C2E940 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FE6BE51F17507600C2E940;
+					};
+					C0FE6C041F17507600C2E940 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FE6BE51F17507600C2E940;
+					};
+				};
+			};
+			buildConfigurationList = C0FE6BE11F17507600C2E940 /* Build configuration list for PBXProject "7-13-构造函数（KVC）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FE6BDD1F17507600C2E940;
+			productRefGroup = C0FE6BE71F17507600C2E940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FE6BE51F17507600C2E940 /* 7-13-构造函数（KVC） */,
+				C0FE6BF91F17507600C2E940 /* 7-13-构造函数（KVC）Tests */,
+				C0FE6C041F17507600C2E940 /* 7-13-构造函数（KVC）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FE6BE41F17507600C2E940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE6BF41F17507600C2E940 /* LaunchScreen.storyboard in Resources */,
+				C0FE6BF11F17507600C2E940 /* Assets.xcassets in Resources */,
+				C0FE6BEF1F17507600C2E940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6BF81F17507600C2E940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6C031F17507600C2E940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FE6BE21F17507600C2E940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE6BEC1F17507600C2E940 /* ViewController.swift in Sources */,
+				C0FE6BEA1F17507600C2E940 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6BF61F17507600C2E940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE6BFF1F17507600C2E940 /* __13______KVC_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE6C011F17507600C2E940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE6C0A1F17507600C2E940 /* __13______KVC_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0FE6BFC1F17507600C2E940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FE6BE51F17507600C2E940 /* 7-13-构造函数（KVC） */;
+			targetProxy = C0FE6BFB1F17507600C2E940 /* PBXContainerItemProxy */;
+		};
+		C0FE6C071F17507600C2E940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FE6BE51F17507600C2E940 /* 7-13-构造函数（KVC） */;
+			targetProxy = C0FE6C061F17507600C2E940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0FE6BED1F17507600C2E940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FE6BEE1F17507600C2E940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FE6BF21F17507600C2E940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FE6BF31F17507600C2E940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FE6C0C1F17507600C2E940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0FE6C0D1F17507600C2E940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FE6C0F1F17507600C2E940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7-13-构造函数（KVC）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0FE6C101F17507600C2E940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7-13-构造函数（KVC）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0FE6C121F17507600C2E940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "7-13-构造函数（KVC）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7-13-构造函数（KVC）.app/7-13-构造函数（KVC）";
+			};
+			name = Debug;
+		};
+		C0FE6C131F17507600C2E940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "7-13-构造函数（KVC）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7-13-构造函数（KVC）.app/7-13-构造函数（KVC）";
+			};
+			name = Release;
+		};
+		C0FE6C151F17507600C2E940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "7-13-构造函数（KVC）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "7-13-构造函数（KVC）";
+			};
+			name = Debug;
+		};
+		C0FE6C161F17507600C2E940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "7-13-构造函数（KVC）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--13------KVC-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "7-13-构造函数（KVC）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FE6BE11F17507600C2E940 /* Build configuration list for PBXProject "7-13-构造函数（KVC）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE6C0C1F17507600C2E940 /* Debug */,
+				C0FE6C0D1F17507600C2E940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FE6C0E1F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE6C0F1F17507600C2E940 /* Debug */,
+				C0FE6C101F17507600C2E940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0FE6C111F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE6C121F17507600C2E940 /* Debug */,
+				C0FE6C131F17507600C2E940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0FE6C141F17507600C2E940 /* Build configuration list for PBXNativeTarget "7-13-构造函数（KVC）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE6C151F17507600C2E940 /* Debug */,
+				C0FE6C161F17507600C2E940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FE6BDE1F17507600C2E940 /* Project object */;
+}
